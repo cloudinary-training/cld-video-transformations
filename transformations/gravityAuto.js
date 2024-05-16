@@ -23,5 +23,5 @@ cloudinary.config({ secure: "true" });
 //   .then(uploadResult => console.log(uploadResult))
 //   .catch(error => console.error(error));
 
-const url = cloudinary.video("blood-orange", {aspect_ratio: "1:1", gravity: "auto", width: 300, crop: "fill"})
+const url = cloudinary.video("blood-orange", {aspect_ratio: "1:1", gravity: "auto", width: 400, crop: "fill"})
 console.log(url)
