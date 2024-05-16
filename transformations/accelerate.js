@@ -14,3 +14,5 @@ const cloudinary = require('cloudinary').v2;
 //   .catch(error => console.error(error))
 
 
+const url = cloudinary.video("chocolate", {effect: "accelerate"})
+console.log(url)

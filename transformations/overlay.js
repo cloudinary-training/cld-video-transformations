@@ -11,6 +11,8 @@ const url = cloudinary.url('noodles', {
     {
       overlay: 'logo',
       width: 100,
+      x: 15,
+      y: 15,
       gravity: 'north_east',
       opacity: 50,
       effect: 'brightness:100'
@@ -19,11 +21,12 @@ const url = cloudinary.url('noodles', {
       overlay: {
         font_family: 'Montserrat',
         font_size: 30,
-        text: '  EAT YOUR NOODS  '
+        text: '20% OFF DELIVERY TODAY    ',
       },
       gravity: 'center',
       x: 25,
-      y: 25
+      y: 25,
+      color: '#FFFFFF'
     }
   ]
 })

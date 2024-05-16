@@ -17,8 +17,11 @@ cloudinary.config({ secure: "true" });
 //   .catch(error => console.error(error))
 
 
-cloudinary.uploader
-.upload("assets/blood-orange.mp4",
-  { resource_type: "video", width: 500, crop: "fill", gravity: "auto"})
-  .then(uploadResult => console.log(uploadResult))
-  .catch(error => console.error(error));
+// cloudinary.uploader
+// .upload("assets/blood-orange.mp4",
+//   { resource_type: "video", width: 500, crop: "fill", gravity: "auto"})
+//   .then(uploadResult => console.log(uploadResult))
+//   .catch(error => console.error(error));
+
+const url = cloudinary.video("blood-orange", {aspect_ratio: "1:1", gravity: "auto", width: 300, crop: "fill"})
+console.log(url)
