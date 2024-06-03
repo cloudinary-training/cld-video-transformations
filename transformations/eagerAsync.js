@@ -10,7 +10,7 @@ cloudinary.uploader.upload(
       public_id: "plates",
       eager: [
         { width: 400, height: 300, crop: "pad" },
-        { width: 260, height: 200, crop: "crop", gravity: "north" }
+        { width: 260, height: 200, crop: "fill", gravity: "auto" }
       ]
     },
     function(error, result) {
