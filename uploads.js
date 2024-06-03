@@ -8,3 +8,9 @@ cloudinary.uploader.upload("assets/blood-orange.mp4", {resource_type: "video", p
 
 cloudinary.uploader.upload("assets/noodles.mp4", {resource_type: "video", public_id: "noodles"})
 
+cloudinary.uploader.upload("assets/tuna.mp4", {resource_type: "video", public_id: "tuna"})
+
+cloudinary.uploader.upload("assets/chef.mp4", {resource_type: "video", public_id: "chef"})
+
+cloudinary.uploader.upload("assets/plates.mp4", {resource_type: "video", public_id: "plates"})
+

@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2;
 cloudinary.config({ secure: "true" });
 
 
-const url = cloudinary.url("blood-orange.mp4", {fetch_format: "auto", resource_type: 'video', urlAnalytics: false})
+const url = cloudinary.url("plates", {fetch_format: "auto", resource_type: 'video', urlAnalytics: false})
 console.log(url)
 
 
