@@ -6,5 +6,5 @@ cloudinary.config({ secure: "true" });
 // appropriate format to deliver based on the requesting device and browser.
 
 
-const url = cloudinary.video("plates", {fetch_format: "auto", resource_type: 'video', urlAnalytics: false})
+const url = cloudinary.video("plates", {fetch_format: "auto", urlAnalytics: false})
 console.log(url)
