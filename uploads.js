@@ -1,7 +1,9 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-//upload videos to be worked with in this course, assign public IDs for referencing
+//upload the video assets to be worked with in this microcourse,
+// and assign public ID that match the code in this repository for easy referencing
+
 cloudinary.uploader.upload("assets/chocolate.mp4", {resource_type: "video", public_id: "chocolate"})
 
 cloudinary.uploader.upload("assets/blood-orange.mp4", {resource_type: "video", public_id: "blood-orange"})
