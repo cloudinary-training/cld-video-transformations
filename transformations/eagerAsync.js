@@ -5,7 +5,6 @@ cloudinary.config({ secure: "true" });
 // Cloudinary's eager async feature allows you to declare transformations upon video upload, 
 // optimizing delivery performance and streamlining workflow processes
 
-
 cloudinary.uploader.upload(
     "assets/plates.mp4",
     {
