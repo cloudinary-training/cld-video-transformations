@@ -6,7 +6,7 @@ cloudinary.config({ secure: "true" });
 // of images and videos to achieve an optimal balance between visual quality and file size.
 
 
-const url = cloudinary.url('chef',
+const url = cloudinary.video('chef',
     transformation = [
       {quality: "auto"}
     ])
