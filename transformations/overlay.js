@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 cloudinary.config({ secure: "true" });
 
-//image overlay onto a video
+// image and text overlay on a video asset
 
 const url = cloudinary.url('noodles', {
   resource_type: 'video',
